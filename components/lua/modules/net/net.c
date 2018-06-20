@@ -80,6 +80,8 @@
 #include <sys/driver.h>
 #include <drivers/net.h>
 
+#include "protocols/protocols.inc"
+
 typedef union {
     uint32_t ipaddr;
     uint8_t ipbytes[4];
@@ -415,6 +417,7 @@ static const LUA_REG_TYPE net_map[] = {
 #endif
 
     { LSTRKEY( "service" ), LROVAL ( service_map ) },
+    { LSTRKEY( "protocols" ), LROVAL ( protocols_map ) },
     DRIVER_REGISTER_LUA_ERRORS(net)
     { LNILKEY, LNILVAL }
 };

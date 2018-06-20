@@ -13,11 +13,11 @@
 -- config.loglevel = os.LOG_ERR
 -- config.loglevel = os.LOG_WARNING
 -- config.loglevel = os.LOG_DEBUG
--- config.loglevel = os.LOG_ALL
+config.loglevel = os.LOG_ALL
 
 -- config.logcons = false  -- Uncomment to disable syslog messages on the console
 
--- config.wifi = true      -- Uncomment to enable wifi / comment to disable it
+config.wifi = true      -- Uncomment to enable wifi / comment to disable it
 -- config.ethernet = true  -- Uncomment to enable ethernet / comment to disable it
 
 -- config.sntp = true -- Uncomment to enable sntp client / comment to disable it

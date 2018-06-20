@@ -5,7 +5,7 @@
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.cross.base.458462299" moduleId="org.eclipse.cdt.core.settings" name="Default">
 				<externalSettings>
 					<externalSetting>
-						<entry flags="RESOLVED" kind="includePath" name="/Users/jaumeolivepetrus/esp-idf/components/esp32/include"/>
+						<entry flags="RESOLVED" kind="includePath" name="/Users/Alex/esp/esp-idf/components/esp32/include"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/esp-idf/components/esp32/include"/>
 					</externalSetting>
 				</externalSettings>
